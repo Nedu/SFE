@@ -27,13 +27,14 @@ const FormHeading = {
     paddingBottom: "1em"
 };
 
-const FormFieldsContainer = {
-    display: "flex",
-    paddingBottom: "2em"
-};
+// const FormFieldsContainer = {
+//     display: "flex",
+//     paddingBottom: "2em"
+// };
 
 const FormFields = {
-    width: "50%"
+    width: "50%",
+    paddingRight: "0.1em"
 };
 
 const FormButton = {
@@ -48,6 +49,13 @@ const InvalidEmail = {
     paddingBottom: "1em"
 };
 
+const InvalidSelect = {
+    fontWeight: "bold",
+    color: "#C23628",
+    paddingBottom: "1em",
+    marginLeft: "53%"
+};
+
 const SubmitMessage = {
     fontSize: "24px", 
     fontWeight: "bold"
@@ -59,9 +67,9 @@ export const styles = {
     Header,
     Rule,
     FormHeading,
-    FormFieldsContainer,
     FormFields,
     FormButton,
     InvalidEmail,
+    InvalidSelect,
     SubmitMessage
 };
